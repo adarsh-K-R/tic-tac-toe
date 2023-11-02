@@ -1,10 +1,13 @@
 import "./App.css";
+import { HashRouter } from "react-router-dom";
 import TicTacToe from "./Components/TicTacToe";
 
 function App() {
   return (
     <div>
-      <TicTacToe />
+      <HashRouter base="/">
+        <TicTacToe />
+      </HashRouter>
     </div>
   );
 }
