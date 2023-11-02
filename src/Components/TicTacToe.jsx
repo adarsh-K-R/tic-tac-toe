@@ -71,6 +71,7 @@ function TicTacToe(){
         setTiles(history[index]);
         setPlayerTurn(playerTurn === Player_X ? Player_O : Player_X);
         setGameState(GameState.inProgress);
+        setStrikeClass(null);
     };
 
     const handleTileClick = (index) => {
