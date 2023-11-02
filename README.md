@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Tic-Tac-Toe Game with ReactJS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Tic-Tac-Toe game built with ReactJS! This project showcases a classic game of Tic-Tac-Toe with some exciting features. Whether you want to enjoy a friendly match or learn from your past moves, this application has got you covered.
 
-## Available Scripts
+![Tic-Tac-Toe Preview](https://github.com/adarsh-K-R/tic-tac-toe/assets/110343528/0f78d3b5-48a4-4532-a83b-6f087769934f)
 
-In the project directory, you can run:
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Turn Indicator**: When you hover over the game board, you can see which player's turn it is. "X" or "O" will be displayed on the empty cells to keep you informed.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Time-Travel System**: Want to revisit a particular move? No problem! You can turn back the game to any specified move number, like move #2 or move #1, to explore different game paths.
 
-### `npm test`
+- **Sound Effects**: Enjoy the game even more with sound effects! Each player's turn is accompanied by a distinct sound, and after the winner is decided, a celebratory sound and fireworks display add to the excitement.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Victory Celebration**: When a player wins the game, fireworks set off to celebrate the victory, creating an immersive and fun experience.
 
-### `npm run build`
+## Components
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project is built using several components that you can reuse and extend in your own React applications:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Tic-Tac-Toe Component**: The main component for the game logic.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Board Component**: Manages the game board and renders the cells.
 
-### `npm run eject`
+- **Tiles Component**: Handles individual cell rendering and state.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Strike Component**: Detects and displays the winning strike pattern.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Fireworks Component**: Adds a fireworks animation when a player wins.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Reset Component**: Allows you to reset the game.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Result Component**: Displays the game result (win, lose, draw).
 
-## Learn More
+## Getting Started
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To run this project locally and explore the code, follow these steps:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/adarsh-K-R/tic-tac-toe-react.git
+   cd tic-tac-toe-react
+   ```
 
-### Code Splitting
+2. Install the dependencies using npm or yarn:
+   ```sh
+   npm install
+   # or
+   yarn install
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. Start the development server:
+   ```sh
+   npm start
+   # or
+   yarn start
+   ```
 
-### Analyzing the Bundle Size
+4. Open your browser and visit [http://localhost:3000](http://localhost:3000) to play the game and explore the code.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## How to Play
 
-### Making a Progressive Web App
+1. Click on an empty cell to make your move.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+2. The turn indicator will let you know whose turn it is (X or O).
 
-### Advanced Configuration
+3. Use the time-travel system to review previous moves.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+4. Enjoy the sound effects and fireworks when you win!
 
-### Deployment
+5. Use the reset button to start a new game.
+   
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Feel free to contribute, report issues, or suggest improvements. We hope you have a great time playing Tic-Tac-Toe with ReactJS!
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is created with ❤️ by Adarsh. Enjoy the game!
